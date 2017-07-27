@@ -4,7 +4,7 @@
     int num;
     printf("Enter any number: ");
     scanf("%d", &num);
-    if(num > 0) 
+    if(num > 0) {
      {
         printf("Number is POSITIVE");
      }
@@ -16,4 +16,7 @@
     {
         printf("Number is ZERO");
     }
+    }
+  else
+  { printf("Enter valid input");}
 } 
